@@ -1,0 +1,4 @@
+-- [[ ci-dessous, votre code permettant de récupérer la somme d'argent possédé par le joueur ]]
+-- [[ une fois cette somme récupérée, envoyez la en unique paramètre de l'event 'fx-rentshop:getPlayerMoney' ]]
+-- [[ exemple : TriggerClientEvent('fx-rentshop:getPlayerMoney', montant) à noter que @montant doit être un nombre et non une chaîne de caractères ]]
+-- [[ si vous ne le faites pas, par default le joueur possèdera 0$, dans ce cas pensez à rendre vos locations gratuites de préférence ]]

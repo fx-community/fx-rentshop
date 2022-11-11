@@ -1,0 +1,10 @@
+-- AddEventHandler('fx-rentshop:onReturnedCar', function(lastCar, carList)
+--     print('Le véhicule ~b~'..lastCar.label..'~s~ a été retourné')
+--     for k,v in pairs(carList) do
+--         if v.model == lastCar.model then
+--             local carPrice = v.price
+--             local cashBack = carPrice / 100 * 40 -- formule pour un pourcentage (par default : @carPrice divisé par 100 fois 40 ==> @cashBack = 40% de @carPrice)
+--             print('vous avez récupéré $'..round(cashBack)..' sur un prix initial de $'..carPrice)
+--         end
+--     end
+-- end)
